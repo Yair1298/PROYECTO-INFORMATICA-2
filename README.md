@@ -1,25 +1,7 @@
-CODIGOS DEL PROYECTO 
+# CODIGOS DEL PROYECTO 
 
-La presente carpeta contiene códigos desarrollados
-para trabajar con una placa ESP32.
+La presente carpeta de códigos contiene un conjunto de programas desarrollados para trabajar con una placa ESP32, cuyo propósito principal es la adquisición, procesamiento y análisis de datos en tiempo real. A través de estos códigos, el sistema es capaz de leer información proveniente de distintos sensores conectados a la placa, permitiendo obtener variables relevantes según el contexto del proyecto.
 
-Su función principal es leer datos de sensores
-conectados a la placa en tiempo real.
+Una vez capturados los datos, estos son sometidos a un proceso de análisis que incluye una serie de cálculos y condiciones previamente definidas. Con base en este análisis, el sistema genera respuestas automáticas, las cuales pueden traducirse en acciones específicas, notificaciones o ajustes dentro del mismo entorno de funcionamiento.
 
-Estos datos son procesados mediante cálculos
-y condiciones previamente definidas.
-
-A partir del análisis, el sistema genera
-respuestas automáticas según los resultados.
-
-Las respuestas pueden ser acciones,
-notificaciones o ajustes del sistema.
-
-Además, los códigos incluyen la configuración
-de conexiones entre la ESP32 y sus componentes.
-
-Esto permite una comunicación eficiente
-y estable entre hardware y software.
-
-En conjunto, el sistema logra interpretar datos
-y tomar decisiones de forma autónoma.
+Además, los códigos contemplan la configuración de conexiones necesarias entre la ESP32 y los distintos componentes utilizados, asegurando una comunicación eficiente y estable. En conjunto, este conjunto de programas permite implementar una solución inteligente capaz de interpretar datos y tomar decisiones de manera autónoma, destacando la integración entre hardware y software.
