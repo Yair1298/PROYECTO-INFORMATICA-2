@@ -21,7 +21,7 @@ Guarda en notes/ un archivo por diapositiva con puntos clave y tiempo estimado.
 
 Resumen: Proyecto para diseñar un acuario 100% autónomo que mantiene condiciones óptimas para peces domésticos mediante sensores, una placa ESP32, control de temperatura y una interfaz de monitorización.
 
-1. Introducción
+# Introducción
 El proyecto: Acuario inteligente basado en el Internet de las Cosas (IoT).
 El problema: Inestabilidad del ecosistema acuático debido a errores humanos en la supervisión manual.
 La solución: Un entorno 100% autónomo; la programación como puente entre el mundo físico y el digital.
@@ -29,10 +29,10 @@ Tecnologías integradas: sensores físicos; interfaz de monitorización web; alg
 
 Imagen sugerida: foto del acuario y/o persona usando laptop y smartphone (colocar en la parte superior derecha).
 
-2. Por qué este tema
+# Por qué este tema
 Este proyecto se seleccionó debido a la alta mortalidad de peces en acuarios domésticos, causada principalmente por un control deficiente de variables como el pH y la temperatura del agua. Muchas especies de peces son muy sensibles a estos cambios, y la falta de un monitoreo constante afecta su calidad de vida.
 
-Puntos clave:
+# Puntos clave:
 
 Alta mortalidad en acuarios domésticos.
 
@@ -42,7 +42,7 @@ Necesidad de monitoreo continuo y automatizado.
 
 Imagen sugerida: foto de investigación/planning y foto de un acuario doméstico.
 
-3. Problema principal
+# Problema principal
 El acuario inteligente está diseñado para mantener la temperatura ideal para los peces, que generalmente oscila entre 24 °C y 27 °C. Los cambios bruscos de temperatura pueden causar estrés y enfermedades. El sistema utiliza Arduino/ESP32, sensores y un termostato para regular automáticamente el calentador y garantizar un entorno estable y seguro.
 
 Consecuencias de no controlar la temperatura:
@@ -53,7 +53,7 @@ Mayor susceptibilidad a enfermedades.
 
 Mortalidad elevada.
 
-4. Sensores y componentes
+# Sensores y componentes
 pH  
 Permite medir el nivel de acidez del agua en tiempo real, asegurando que se mantenga dentro de los rangos adecuados para la vida de los peces.
 
@@ -66,7 +66,7 @@ Actúa como sistema de control para regular automáticamente la temperatura cuan
 Placa ESP32  
 Unidad central de procesamiento por su capacidad de integrarse con múltiples sensores, bajo consumo y conectividad Wi‑Fi.
 
-Lista de componentes sugeridos:
+# Lista de componentes sugeridos:
 
 Sensor de pH (electrodo + módulo).
 
@@ -82,7 +82,7 @@ Fuente de alimentación estable.
 
 Cables, conectores y carcasa protectora.
 
-5. Tecnologías integradas
+# Tecnologías integradas
 Hardware: ESP32, sensores de pH y temperatura, relés, calentador controlable.
 Software: Firmware en C/C++ para ESP32; lógica de control (umbral, histéresis o PID); registro de datos.
 Interfaz: Panel web para monitorización en tiempo real y alertas.
@@ -100,39 +100,5 @@ Registro y visualización en la interfaz web.
 
 Notificaciones si se detectan anomalías.
 
-6. Conclusión
+# Conclusión
 Un acuario inteligente reduce la intervención humana y minimiza errores de supervisión, mejorando la supervivencia y el bienestar de los peces. La combinación de sensores, una placa ESP32 y una interfaz de monitorización permite un control continuo y escalable del ecosistema acuático.
-
-7. Notas del presentador (para incluir al final del documento o como apéndice)
-Introducción — 45 s
-
-Objetivo general: acuario inteligente IoT.
-
-Problema de supervisión manual.
-
-Propuesta: autonomía y programación.
-
-Por qué este tema 
-
-Alta mortalidad en acuarios domésticos.
-
-Variables críticas: pH y temperatura.
-
-Conectar necesidad con solución.
-
-Problema principal — 50 s
-
-Rango ideal de temperatura: 24–27 °C.
-
-Consecuencias de cambios bruscos.
-
-Componentes que regulan la temperatura.
-
-Sensores — 60 s
-
-Función de cada sensor (pH, temperatura).
-
-Rol del termostato y la ESP32.
-
-Cómo garantizan estabilidad.
-
